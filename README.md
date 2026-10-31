@@ -18,12 +18,6 @@ This project adds JavaScript interactivity to a responsive creative studio webpa
 - `style.css` – layout, colors, responsive design, and visual states.
 - `script.js` – event listeners, DOM updates, menu, theme, toast, and form validation.
 
-## How to run
-1. Download and extract the ZIP folder.
-2. Open the folder in Visual Studio Code.
-3. Open `index.html` in a browser (or use Live Server).
-4. Try the menu, theme button, service buttons, and contact form.
-
 ## Technical notes
 JavaScript is connected using the `defer` attribute in the script tag. This lets the HTML load before the script runs. Event listeners respond to user actions, while DOM methods update classes, text, and accessibility attributes. The form uses client-side validation only; it does not send data to a server.
 
